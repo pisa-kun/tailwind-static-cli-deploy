@@ -8,6 +8,6 @@ aws s3api put-bucket-policy --bucket tailwind-static-cli-deploy --policy file://
 
 aws s3 cp src/index.html s3://tailwind-static-cli-deploy/index.html
 aws s3 cp dist/output.css s3://tailwind-static-cli-deploy/dist/output.css
-aws s3 cp img/akinze.png s3://tailwind-static-cli-deploy/img/akinze.png
+aws s3 cp img/run_gopher.png s3://tailwind-static-cli-deploy/img/run_gopher.png
 
 aws s3 website s3://tailwind-static-cli-deploy --index-document index.html
